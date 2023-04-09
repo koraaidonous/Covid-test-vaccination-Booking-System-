@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+service ClinicCtrl {
+  rpc getVacHistory (vacRequest) returns (vacFile) {}
+
+  rpc getAppointment (appointmentRequest) returns (appointmentFile) {}
+
+  rpc getCovidResults (resultsRequest) returns (resultsFile) {}
+}
+
+message vacRequest {
+  string name = 1;
+  int32 hs_num = 2;
+}
+
+message vacFile {
+  repeated string vaccines = 1;
+}
+
+message appointmentRequest {
+  string name = 1;
+  int32 hs_num = 2;
+}
+
+message appointmentFile{
+  string appointment = 1;
+}
+
+message resultsRequest {
+  string name = 1;
+  int32 hs_num = 2;
+}
+
+message resultsFile{
+  int32 results = 1;
+}

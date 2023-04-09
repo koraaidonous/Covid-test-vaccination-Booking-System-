@@ -1,0 +1,6 @@
+123 Moderna 02/01/2022
+222 Pfizer 12/02/2023
+567 BioNTech 30/04/2022
+123 Astrazeneca 19/09/2022
+222 JohnsonAndJohnson 23/11/2022
+789 Pfizer 17/02/2022
