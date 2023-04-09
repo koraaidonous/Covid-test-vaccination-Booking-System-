@@ -50,9 +50,12 @@ def getBooking():
 
     def callback(ch, method, properties, body):
         print(" [x] Received booking %r" % body)
-        defused_mine = pickle.loads(body)
-        if booking["book"]:
-
+        booking = pickle.loads(body)
+        #Save appointment to InfoApt.txt
+        toWrite = str(booking["hs_num"])+" "+booking["clinic"]+" "+booking["date"]
+        with open("InfoApt.txt","w") as aptf:
+            aptf.write(toWrite+"\n")
+        aptf.close()
 
     channel.basic_consume(queue='Booking-Clinic-Queue', on_message_callback=callback, auto_ack=True)
     print(" [x] Waiting for booking messages.")

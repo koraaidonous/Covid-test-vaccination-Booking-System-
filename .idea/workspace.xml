@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5e8f669-ab58-444c-96ba-6244f21ae025" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_op.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/covidTest_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/covidTest_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfoApt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InfoApt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfoVacc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InfoVacc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
+    </list>
+    <list id="bfdf558e-6422-4898-af43-0897b2e103ef" name="Changes by anasi" comment="">
+      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
+    </list>
+    <list id="a89df0f3-99cc-4c34-9e8e-53c18fbea315" name="Changes by chris" comment="">
+      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
+    </list>
+    <list id="d5070abf-f2ff-4432-a9aa-3711b64eaa08" name="Changes by k_tin" comment="">
+      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/booking.py">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="8" end1="9" start2="9" end2="10" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
+        <range start1="15" end1="18" start2="16" end2="18" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
+        <range start1="26" end1="27" start2="26" end2="27" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
+        <range start1="33" end1="36" start2="33" end2="35" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
+        <range start1="48" end1="48" start2="47" end2="52" changelist="a89df0f3-99cc-4c34-9e8e-53c18fbea315" />
+        <range start1="64" end1="64" start2="68" end2="69" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="68" end1="68" start2="73" end2="74" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/patient.py">
+      <ranges>
+        <range start1="1" end1="2" start2="1" end2="2" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="7" end1="7" start2="7" end2="8" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="8" end1="9" start2="9" end2="10" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="11" end1="11" start2="12" end2="13" changelist="a89df0f3-99cc-4c34-9e8e-53c18fbea315" />
+        <range start1="13" end1="13" start2="15" end2="16" changelist="a89df0f3-99cc-4c34-9e8e-53c18fbea315" />
+        <range start1="15" end1="15" start2="18" end2="76" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="17" end1="18" start2="78" end2="79" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="20" end1="20" start2="81" end2="82" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="21" end1="22" start2="83" end2="84" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="62" end1="62" start2="124" end2="125" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="79" end1="80" start2="142" end2="142" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="112" end1="116" start2="174" end2="174" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="118" end1="119" start2="176" end2="178" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="120" end1="121" start2="179" end2="180" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="124" end1="124" start2="183" end2="187" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2OCcP1LJfw6BuZoXz2qsokn9sZ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.patient_op">
+    <configuration name="patient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covidTest_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/patient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="patient_op" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covidTest_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/patient_op.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.patient_op" />
+        <item itemvalue="Python.patient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5e8f669-ab58-444c-96ba-6244f21ae025" name="Changes" comment="" />
+      <created>1681067976662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681067976662</updated>
+    </task>
+    <servers />
+  </component>
+</project>
