@@ -4,16 +4,26 @@ import requests
 def run():
     run_p = 1
     run_l = 0
+    print("Welcome to CMS!")
     while run_p:
-        print("Welcome!")
         resp = input("[1] Log In\n"
                      "[2] Sign Up\n"
-                     "[X] Exit\n")
+                     "[X] Exit\n"
+                     "Enter number here: ")
         if resp == '1':
             print("Log In")
-            name = input("")
-            run_l = 1
+            name = input("Username:")
+            password = input("Password:")
+            payload = {'name': name, 'password': password}
+            result = requests.get("http://127.0.0.1:8000/Login", params=payload).json()
+            print(result)
+            if result == "True":
+                print("Welcome!")
+                run_l = 1
+            else:
+                print("Log in failed. Try again.")
             while run_l:
+                print("---------------------------------------------------------------\n")
                 print("What would you like to do today?")
                 ui = input("[1] Book Covid-19 Test\n"
                               "[2] Book Covid-19 Vaccine\n"
@@ -23,12 +33,16 @@ def run():
                               "[X] Log Out\n"
                               "Please enter the number from the options provided above:")
                 if ui == '1':
+                    print("---------------------------------------------------------------\n")
+                    print("Booking Covid Test")
                     clinic, date, time = input("Please enter the clinic name, date and time "
                                                "for you testing appointment separated by spaces: ").split()
                     payload = {'clinic': clinic, 'date': date, 'time': time}
                     print(requests.post("http://127.0.0.1:8000/book/test", params=payload).json())
 
                 elif ui == '2':
+                    print("---------------------------------------------------------------\n")
+                    print("Booking Covid Vaccine")
                     clinic, date, time = input("Please enter the clinic name, date and time "
                                     "for you vaccine appointment separated by spaces: ").split()
                     choice = input(
@@ -48,23 +62,34 @@ def run():
                         vac_type = "AstraZeneca"
                     elif choice == '5':
                         vac_type = "JohnsonAndJohnson"
-                    payload = {'vac_type':vac_type ,'clinic': clinic, 'date': date, 'time': time}
+                    else:
+                        vac_type = "Pfizer"
+                    payload = {'vac_type': vac_type, 'clinic': clinic, 'date': date, 'time': time}
                     print(requests.post("http://127.0.0.1:8000/book/vac", params=payload).json())
                 elif ui == '3':
-                    print(requests.get("http://127.0.0.1:8000/view/vac").json())
+                    print("---------------------------------------------------------------\n")
+                    print("View Appointment")
+                    print(requests.get("http://127.0.0.1:8000/view/appt").json())
                 elif ui == '4':
+                    print("---------------------------------------------------------------\n")
+                    print("View Vaccine History")
+                    print(requests.get("http://127.0.0.1:8000/view/vac").json())
+                elif ui == '5':
+                    print("---------------------------------------------------------------\n")
+                    print("View Covid Test Result")
                     print(requests.get("http://127.0.0.1:8000/view/test").json())
                 elif ui == 'X' or ui == 'x':
+                    print("---------------------------------------------------------------\n")
                     print("Logging out...")
                     run_l = 0
                 else:
                     print("Invalid input.")
         elif resp == '2':
             name, password, hs_num, dob = input("Please enter your name, password, hs_num and date of birth separated by spaces: ").split()
-            payload = {'name': name, 'password': password, 'hs_num': hs_num, 'dob': dob, 'stat': 0}
-            print(requests.put("http://127.0.0.1:8000/SignUp", params=payload).json())
+            payload = {'name': name, 'password': password, 'hs_num': hs_num, 'dob': dob}
+            print(requests.post("http://127.0.0.1:8000/SignUp", params=payload).json())
         elif resp == 'x' or resp == 'X':
-            run_p=0
+            run_p = 0
             print("Exiting application.")
         else:
             print("Invalid input")

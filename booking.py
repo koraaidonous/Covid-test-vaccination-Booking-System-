@@ -70,11 +70,19 @@ def main():
                 vacResponse = book_vac(booking_task)
                 if vacResponse == True:
                     send_booking(booking_task)
+                    message = "Vaccine booking approved."
         else:
                 print("booking covid test")
                 testResponse = book_test(booking_task)
                 if testResponse == True:
                     send_booking(booking_task)
+                    message = "Covid test booking approved."
+        connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+        channel = connection.channel()
+        channel.queue_declare(queue='Response-Queue')
+        channel.basic_publish(exchange='', routing_key='Response-Queue', body=pickle.dumps(message))
+        print(" [x] Sending successful booking task to patient.")
+        connection.close()
 
     #Start consuming messages
     channel.basic_consume(queue='Booking-Queue', on_message_callback=callback, auto_ack=True)

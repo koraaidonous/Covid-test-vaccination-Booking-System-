@@ -5,26 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5e8f669-ab58-444c-96ba-6244f21ae025" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_op.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/covidTest_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/covidTest_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InfoApt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InfoApt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InfoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfoVacc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InfoVacc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient_op.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff.py" beforeDir="false" />
+    </list>
+    <list id="b6442809-2fda-4cd1-938d-7d2541af1cc2" name="Changes by anasi" comment="">
+      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient_op.py" afterDir="false" />
+    </list>
+    <list id="e9f0136b-4285-4071-9c87-a381e5076bd2" name="Changes by chris" comment="">
+      <change beforePath="$PROJECT_DIR$/patient_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient_op.py" afterDir="false" />
+    </list>
+    <list id="d5070abf-f2ff-4432-a9aa-3711b64eaa08" name="Changes by k_tin" comment="">
       <change beforePath="$PROJECT_DIR$/InfoVacc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InfoVacc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
-    </list>
-    <list id="bfdf558e-6422-4898-af43-0897b2e103ef" name="Changes by anasi" comment="">
-      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
-    </list>
-    <list id="a89df0f3-99cc-4c34-9e8e-53c18fbea315" name="Changes by chris" comment="">
-      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
-    </list>
-    <list id="d5070abf-f2ff-4432-a9aa-3711b64eaa08" name="Changes by k_tin" comment="">
-      <change beforePath="$PROJECT_DIR$/booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_op.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient_op.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +46,52 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/booking.py">
+    <file path="$PROJECT_DIR$/InfoVacc.txt">
       <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
-        <range start1="8" end1="9" start2="9" end2="10" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
-        <range start1="15" end1="18" start2="16" end2="18" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
-        <range start1="26" end1="27" start2="26" end2="27" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
-        <range start1="33" end1="36" start2="33" end2="35" changelist="bfdf558e-6422-4898-af43-0897b2e103ef" />
-        <range start1="48" end1="48" start2="47" end2="52" changelist="a89df0f3-99cc-4c34-9e8e-53c18fbea315" />
-        <range start1="64" end1="64" start2="68" end2="69" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="68" end1="68" start2="73" end2="74" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="0" end1="1" start2="0" end2="1" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="3" end1="4" start2="3" end2="4" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="5" end1="6" start2="5" end2="6" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/patient_op.py">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="7" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="7" end1="8" start2="8" end2="8" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="10" end1="11" start2="10" end2="12" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="13" end1="15" start2="14" end2="24" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="16" end1="16" start2="25" end2="26" changelist="e9f0136b-4285-4071-9c87-a381e5076bd2" />
+        <range start1="25" end1="25" start2="35" end2="37" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="31" end1="31" start2="43" end2="45" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="50" end1="51" start2="64" end2="67" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="53" end1="54" start2="69" end2="72" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="55" end1="55" start2="73" end2="79" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="57" end1="57" start2="81" end2="82" changelist="e9f0136b-4285-4071-9c87-a381e5076bd2" />
+        <range start1="63" end1="65" start2="88" end2="90" changelist="b6442809-2fda-4cd1-938d-7d2541af1cc2" />
+        <range start1="66" end1="67" start2="91" end2="92" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/patient.py">
       <ranges>
-        <range start1="1" end1="2" start2="1" end2="2" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
-        <range start1="7" end1="7" start2="7" end2="8" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
-        <range start1="8" end1="9" start2="9" end2="10" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
-        <range start1="11" end1="11" start2="12" end2="13" changelist="a89df0f3-99cc-4c34-9e8e-53c18fbea315" />
-        <range start1="13" end1="13" start2="15" end2="16" changelist="a89df0f3-99cc-4c34-9e8e-53c18fbea315" />
-        <range start1="15" end1="15" start2="18" end2="76" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
-        <range start1="17" end1="18" start2="78" end2="79" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="20" end1="20" start2="81" end2="82" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="21" end1="22" start2="83" end2="84" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="62" end1="62" start2="124" end2="125" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="79" end1="80" start2="142" end2="142" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="112" end1="116" start2="174" end2="174" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="118" end1="119" start2="176" end2="178" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="120" end1="121" start2="179" end2="180" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
-        <range start1="124" end1="124" start2="183" end2="187" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="8" end1="8" start2="8" end2="9" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="25" end1="26" start2="26" end2="27" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="27" end1="27" start2="28" end2="29" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="34" end1="35" start2="36" end2="37" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="38" end1="39" start2="40" end2="41" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="42" end1="43" start2="44" end2="46" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="46" end1="47" start2="49" end2="50" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="48" end1="48" start2="51" end2="55" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="49" end1="50" start2="56" end2="57" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="57" end1="57" start2="64" end2="65" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="64" end1="66" start2="72" end2="80" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="73" end1="75" start2="87" end2="98" changelist="b6442809-2fda-4cd1-938d-7d2541af1cc2" />
+        <range start1="78" end1="79" start2="101" end2="102" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="86" end1="100" start2="109" end2="109" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="121" end1="121" start2="130" end2="131" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="142" end1="142" start2="152" end2="153" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="151" end1="151" start2="162" end2="163" changelist="b5e8f669-ab58-444c-96ba-6244f21ae025" />
+        <range start1="163" end1="163" start2="175" end2="176" changelist="b6442809-2fda-4cd1-938d-7d2541af1cc2" />
+        <range start1="174" end1="174" start2="187" end2="201" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
+        <range start1="189" end1="190" start2="216" end2="222" changelist="d5070abf-f2ff-4432-a9aa-3711b64eaa08" />
       </ranges>
     </file>
   </component>
@@ -78,6 +99,7 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2OCcP1LJfw6BuZoXz2qsokn9sZ8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,10 +109,54 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/bob/covidTest_Project"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.patient_op">
+  <component name="RunManager">
+    <configuration name="booking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covidTest_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/booking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="clinic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covidTest_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clinic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="patient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="covidTest_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +203,8 @@
       <list>
         <item itemvalue="Python.patient_op" />
         <item itemvalue="Python.patient" />
+        <item itemvalue="Python.booking" />
+        <item itemvalue="Python.clinic" />
       </list>
     </recent_temporary>
   </component>
