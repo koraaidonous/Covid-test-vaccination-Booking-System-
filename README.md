@@ -1,0 +1,1 @@
+a comprehensive COVID testing and vaccination booking system using Python. Implemented using RabbitMQ, gRPC, and FastAPI to enable seamless communication, data exchange, and information storage between the clinic, booking system, and patients.
